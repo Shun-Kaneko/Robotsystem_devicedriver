@@ -20,5 +20,6 @@ LEDをそれぞれアノードが
  青→GPIO20 
  緑→GPIO21 
  に接続している。 
+ 
 # 実行動画
 実行した動画は[こちら](https://www.youtube.com/watch?v=FUy7c3xXVaw)です。
