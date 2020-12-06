@@ -20,6 +20,6 @@ LEDをそれぞれアノードが
  青→GPIO20 
  緑→GPIO21 
  に接続している。 
- 
+ 回路図は[こちら](![D80DCE03-111D-4DB4-AC6F-C9F8BF9771C7](https://user-images.githubusercontent.com/72370478/101281791-937ee380-3814-11eb-90ab-b9b8cb4fdde9.jpeg))です。
 # 実行動画
 実行した動画は[こちら](https://www.youtube.com/watch?v=FUy7c3xXVaw)です。
