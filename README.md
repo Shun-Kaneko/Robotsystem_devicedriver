@@ -33,7 +33,7 @@ make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 echo 1 > /dev/myled0
-　```
+　```  
 "1"の部分を2,3,4,0に変えるとそれぞれ動作します。  
 # 実行動画
   実行した動画は[こちら](https://www.youtube.com/watch?v=FUy7c3xXVaw)です。
