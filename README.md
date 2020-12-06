@@ -27,12 +27,12 @@
 # 実行方法
 実行手順は下記の通りです。　　
  ```sh  
-git clone http://github/Shun-Kaneko/Robotsystem_devicedriver
-cd Robotsystem_devicedriver/myled
-make
-sudo insmod myled.ko
-sudo chmod 666 /dev/myled0
-echo 1 > /dev/myled0
+git clone http://github/Shun-Kaneko/Robotsystem_devicedriver  
+cd Robotsystem_devicedriver/myled  
+make  
+sudo insmod myled.ko  
+sudo chmod 666 /dev/myled0  
+echo 1 > /dev/myled0  
 　```  
  
 "1"の部分を2,3,4,0に変えるとそれぞれ動作します。  
