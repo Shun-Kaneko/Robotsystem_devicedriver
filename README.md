@@ -25,14 +25,14 @@
   回路図は[こちら](https://user-images.githubusercontent.com/72370478/101281791-937ee380-3814-11eb-90ab-b9b8cb4fdde9.jpeg)です。
 # 実行方法
 実行手順は下記の通りです。　　
-'''sh
+ ```sh
 git clone http://github/Shun-Kaneko/Robotsystem_devicedriver
 cd Robotsystem_devicedriver/myled
 make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 echo 1 > /dev/myled0
-'''
+　```
 "1"の部分を2,3,4,0に変えるとそれぞれ動作します。　　
    ***
 # 実行動画
