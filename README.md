@@ -33,8 +33,7 @@ git clone http://github/Shun-Kaneko/Robotsystem_devicedriver
 cd Robotsystem_devicedriver/myled  
 make  
 sudo insmod myled.ko  
-sudo chmod 666 /dev/myled0  
-echo 1 > /dev/myled0  
+sudo chmod 666 /dev/myled0   
 ```   
 ***  
 # 使用方法   
