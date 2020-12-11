@@ -1,4 +1,6 @@
 # Robotsystem_devicedriver
+ロボットシステム学の演習で作ったデバイスドライバです。
+***  
 # 実行内容
 講義内で作成したデバイスドライバに変更を加えて作成しています。  
   ・1を入力したら、赤のLEDが1回点滅する。  
@@ -24,8 +26,8 @@
   に接続している。   
   回路の写真は[こちら](https://user-images.githubusercontent.com/72370478/101281791-937ee380-3814-11eb-90ab-b9b8cb4fdde9.jpeg)です。
   ***
-# 実行方法
-実行手順は下記の通りです。　　
+# インストール方法
+実行する場合は下記の通りです。　　
 ```sh  
 git clone http://github/Shun-Kaneko/Robotsystem_devicedriver  
 cd Robotsystem_devicedriver/myled  
@@ -34,6 +36,14 @@ sudo insmod myled.ko
 sudo chmod 666 /dev/myled0  
 echo 1 > /dev/myled0  
 ```   
-"1"の部分を2,3,4,0に変えるとそれぞれ動作します。  
+#使用方法
+echo 1 > /dev/myled0　と入力すると赤のLEDが1回点滅する。  
+echo 2 > /dev/myled0　と入力すると黄色のLEDが1回点滅する。  
+echo 3 > /dev/myled0　と入力すると青のLEDが1回点滅する。  
+echo 4 > /dev/myled0　と入力すると緑のLEDが1回点滅する。  
+echo 0 > /dev/myled0　と入力すると赤→黄色→青→緑の順で消灯し、その後同じ順に点灯し、その後全てのLEDが1回点滅する。  
 # 実行動画
-  実行した動画は[こちら](https://www.youtube.com/watch?v=FUy7c3xXVaw)です。
+  実行した動画は[こちら](https://www.youtube.com/watch?v=FUy7c3xXVaw)です。  
+#ライセンス  
+
+
