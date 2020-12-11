@@ -43,8 +43,9 @@ echo 2 > /dev/myled0　と入力すると黄色のLEDが1回点滅する。
 echo 3 > /dev/myled0　と入力すると青のLEDが1回点滅する。  
 echo 4 > /dev/myled0　と入力すると緑のLEDが1回点滅する。  
 echo 0 > /dev/myled0　と入力すると赤→黄色→青→緑の順で消灯し、その後同じ順に点灯し、その後全てのLEDが1回点滅する。  
+***   
 # 実行動画
   実行した動画は[こちら](https://www.youtube.com/watch?v=FUy7c3xXVaw)です。  
+  ***   
 # ライセンス  
-
-
+[GNU General Public License v3.0](https://github.com/Shun-Kaneko/Robotsystem_devicedriver/blob/main/COPYING)
