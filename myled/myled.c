@@ -50,7 +50,7 @@ static ssize_t led_write( struct file* filp, const char* buf, size_t count, loff
 		for(i = 0;i < number;i++) {
 			gpio_base[10] = 1 << pin[i];
 			msleep(1000);
-	}
+		}
 		for(i = 0;i < number;i++) {
 			gpio_base[7] = 1 << pin[i];
 			msleep(1000);
