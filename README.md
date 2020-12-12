@@ -27,7 +27,7 @@
   回路の写真は[こちら](https://user-images.githubusercontent.com/72370478/101281791-937ee380-3814-11eb-90ab-b9b8cb4fdde9.jpeg)です。
   ***
 # インストール方法   
-実行する場合は下記の通りです。　　
+インストール手順は下記の通りです。　　
 ```sh  
 git clone http://github/Shun-Kaneko/Robotsystem_devicedriver  
 cd Robotsystem_devicedriver/myled  
